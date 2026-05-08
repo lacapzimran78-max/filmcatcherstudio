@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FilmCatcher Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+line-height:1.6;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(to bottom,#000,#111,#000);
+}
+
+header h1{
+font-size:70px;
+font-weight:700;
+margin-bottom:20px;
+}
+
+.gold{
+color:#d4af37;
+}
+
+header p{
+max-width:800px;
+color:#ccc;
+font-size:20px;
+}
+
+.btns{
+margin-top:40px;
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.btn{
+padding:15px 30px;
+border-radius:15px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn-gold{
+background:#d4af37;
+color:#000;
+}
+
+.btn-outline{
+border:2px solid #d4af37;
+color:#fff;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:100px 10%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-title h2{
+font-size:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:#111;
+padding:35px;
+border-radius:25px;
+border:1px solid #222;
+transition:0.3s;
+}
+
+.card:hover{
+border-color:#d4af37;
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#d4af37;
+margin-bottom:15px;
+}
+
+.about{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+align-items:center;
+}
+
+.highlight{
+background:#111;
+padding:40px;
+border-radius:25px;
+border:1px solid #d4af37;
+}
+
+footer{
+padding:40px;
+text-align:center;
+border-top:1px solid #222;
+color:#777;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:45px;
+}
+
+.section-title h2{
+font-size:38px;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<p class="gold">FILMCATCHER STUDIO</p>
+<h1>CINEMATIC <span class="gold">PHOTO & VIDEO</span></h1>
+
+<p>
+Professional wedding coverage, same day edit videos, cinematic reels,
+mobile iPhone content creation, and premium editing services available
+in the Philippines and internationally.
+</p>
+
+<div class="btns">
+<a class="btn btn-gold" href="https://www.facebook.com/filmcatcherstudio" target="_blank">View Portfolio</a>
+<a class="btn btn-outline" href="#services">Our Services</a>
+</div>
+</header>
+
+<section>
+<div class="about">
+<div>
+<h2 class="gold">About FilmCatcher Studio</h2>
+<br>
+<p>
+We specialize in weddings, events, cinematic storytelling,
+same day edit films, and social media content creation.
+We also provide professional photo and video editing services
+for other studios using Adobe Lightroom and Adobe Premiere Pro.
+</p>
+<br>
+<p>
+Our team is based in the Philippines and available for international projects.
+</p>
+</div>
+
+<div class="highlight">
+<h3>Why Choose Us</h3>
+<br>
+<p>✔ Cinematic storytelling</p>
+<p>✔ Same Day Edit videos</p>
+<p>✔ Mobile reels coverage</p>
+<p>✔ International projects</p>
+<p>✔ Fast editing workflow</p>
+<p>✔ Professional Adobe tools</p>
+<p>✔ Premium wedding coverage</p>
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="section-title">
+<h2>Our Services</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Wedding Photography</h3>
+<p>Elegant and timeless wedding photography coverage.</p>
+</div>
+
+<div class="card">
+<h3>Wedding Videography</h3>
+<p>Cinematic storytelling films and emotional wedding highlights.</p>
+</div>
+
+<div class="card">
+<h3>Same Day Edit</h3>
+<p>Fast and emotional SDE videos shown during the wedding event.</p>
+</div>
+
+<div class="card">
+<h3>Mobile Reels Coverage</h3>
+<p>Professional iPhone reels and vertical social media content.</p>
+</div>
+
+<div class="card">
+<h3>Photo Editing</h3>
+<p>Professional Lightroom editing for photographers and studios.</p>
+</div>
+
+<div class="card">
+<h3>Video Editing</h3>
+<p>Adobe Premiere Pro editing for events and cinematic productions.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>Professional Workflow</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Adobe Lightroom</h3>
+<p>
+Professional color grading, cinematic tones, and image enhancement.
+</p>
+</div>
+
+<div class="card">
+<h3>Adobe Premiere Pro</h3>
+<p>
+Cinematic wedding edits, reels, highlight films, and commercial videos.
+</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>Book Us Worldwide</h2>
+<br>
+<p>
+Available for weddings, events, same day edits, reels coverage,
+and editing collaborations internationally.
+</p>
+<br><br>
+
+<div class="btns">
+<a class="btn btn-gold" href="https://www.facebook.com/filmcatcherstudio" target="_blank">Facebook Portfolio</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 FilmCatcher Studio — Cinematic Wedding Photo & Video Services
+</footer>
+
+</body>
+</html>
